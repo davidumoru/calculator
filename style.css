@@ -19,9 +19,12 @@ body {
 
 #display {
     background-color: #1D1F21;
-    padding: 100px;
+    padding: 2rem 10px 0;
     border-radius: 5px;
-    height: 30px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
 #buttons {
@@ -82,4 +85,15 @@ button:hover {
 .operator {
     background-color: #077731;
     color: #FFFFFF;
+}
+
+#history {
+    color: #077731;
+
+}
+
+#output {
+    font-size: 50px;
+    text-wrap: nowrap;
+    margin: 10px;
 }
